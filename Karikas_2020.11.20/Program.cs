@@ -10,7 +10,7 @@ namespace Karikas_2020._11._20
     {
         static void Main(string[] args)
         {
-            
+            //
         }
     }
 }
