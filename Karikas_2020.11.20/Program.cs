@@ -38,11 +38,12 @@ namespace Karikas_2020._11._20
             //szorzatukat és az első és második hányadosát egész osztással!
 
             //Szám beolvasása:
-            Console.Write("Kérem adja meg az első számot: ");
-            string elso_egesz = Console.ReadLine();
-            int szam1 = int.Parse(elso_egesz);
-            Console.WriteLine(elso_egesz);
-            Console.ReadKey();
+            Console.Write("Kérem adja meg az első számot: ");//Beolvasás
+            string elso_egesz = Console.ReadLine();//A beolvasott szám tárolása változóban
+            int szam1 = int.Parse(elso_egesz);//A szám átalakítása egészé
+            Console.WriteLine(elso_egesz);//A szám kiírása
+
+            Console.ReadKey();//Megállítja a program futását: egy billentyű leütésére vár
         }
     }
 }
